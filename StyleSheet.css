@@ -1,0 +1,182 @@
+body {
+  background-color: #E6E7E8;
+}
+
+.navigationBar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.navigationBar a {
+  /* float: left; */
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.navigationBar a:hover {
+  background-color: #D1AFD3;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navigationBar a.active {
+  background-color: #9F4298;
+  color: rgb(0, 0, 0);
+}
+
+.name {
+  margin-top: 2%;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+}
+
+.container {
+  display: flex;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.image {
+  margin-top: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.portrait-title {
+  margin-top: 5%;
+  padding-left: 20px;
+  text-align: center;
+  max-block-size: 70%;
+  line-height: 1.5
+}
+
+.Introduction {
+  column-count: 2;
+  padding-left: 48px;
+  padding-right: 80px;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+.expTitle,
+.eduTitle {
+  margin-top: 5%;
+  padding-left: 20px;
+}
+
+.contactInfo {
+  padding-left: 20px;
+}
+
+
+
+.education {
+  font-size: 125%;
+  margin-top: 6px;
+  margin-left: 55px;
+}
+
+
+.Resume {
+  margin-top: 5%;
+  margin-left: 30%;
+  object-fit: fill;
+}
+
+
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #ffcccc;
+  position: fixed;
+  z-index: 1;
+}
+
+#title {
+  margin-left: 3%;
+}
+
+/* #footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ffcccc;
+  clear: both;
+  position: relative;
+} */
+
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: right;
+  position: inherit;
+}
+
+.stuff,
+.contactLinks {
+  font-size: 125%;
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head {
+  font-size: 30px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+
+  .left,
+  .right {
+    display: none;
+  }
+
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
